@@ -1,0 +1,41 @@
+.dpp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:  100%;
+    background:white;
+    background-size: cover;
+    background-position: center;
+}
+.mbp{
+    /* background: #035803; */
+    background: #e3dede;
+    padding: 0px 60px;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+h1{
+    color: purple;
+    text-align: center;
+}
+.submit{
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px ;
+    margin-bottom: 20px;     
+    transition:.2s ease all;
+
+}
+.submit:hover {
+    transform: scale(1.1);
+
+}
+

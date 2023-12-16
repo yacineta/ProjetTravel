@@ -1,0 +1,77 @@
+.WeekEnd{
+    width: 100%;
+    height: 450px;
+    max-width: 1024px;
+    margin-left: 90px;
+    padding: 20px;
+    /* left: 60px; */
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.wekItem{
+    width: 100%;
+    height: 500px;
+    flex: 1;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+.wekimag{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+}
+.wekName{
+    font-weight: bold;
+}
+.wkCity{
+    font-weight: 400;
+}
+.wkPrice{
+    font-weight: 500;
+}
+.wkRating>button{
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.wkbtnr{
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.wkRating>span{
+    font-size: 14px;
+}
+.WekTitel{
+    width: 50%;
+    color: rgb(27, 137, 27);
+    position: relative;
+    left: 20px;
+}
+.wekpragraph{
+    width: 80%;
+    position: relative;
+    left: 130px;
+   
+}
+.wekpragraph>h4{
+    font-size: 18px;
+}
+.wekOffres{
+    width: 70%;
+    position: relative;
+    left: 80px;
+}

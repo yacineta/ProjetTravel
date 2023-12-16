@@ -1,0 +1,85 @@
+.Care{
+    height: 600px;
+    width: 100%;
+    /* max-width: 1100px; */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    left: 20px;
+    margin-bottom: 50px;
+   
+}
+.carItem{
+    position: relative;
+    margin-top: 30px;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    /* height: 250px; */
+}
+.careImg{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.carTitles{
+    position: absolute;
+    /* margin-bottom:   10px; */
+    left: 20px;
+    color: black;
+}
+.carPropreties{
+   
+    font-size: 15px;
+}
+.Info{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    left: 10px;
+    margin-bottom: 50px;
+   
+}
+.carInfo{
+    height: 250px;
+    width: 500px;
+    position: relative;
+    margin-top: 30px;
+    background: #e0d9d9;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.infoh{
+    color: #000;
+    margin: 20px;
+      margin-left: 60px;
+}
+.iconMd{
+    font-size: 70px;
+    color:#008009 ;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  
+   
+}
+.infoServic{
+    padding: 60px;
+    /* font-size: 20px; */
+    font-weight: 700;
+    color: #0b61bd;
+
+}
+.info30{
+    margin: 10px;
+   color: #000;
+}
+.info30L{
+    margin-left: 60px;
+    color: #000;
+}

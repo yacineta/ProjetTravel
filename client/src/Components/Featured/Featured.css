@@ -1,0 +1,33 @@
+.featured{
+   
+    width: 80%;
+    /* max-width: 1200px; */
+    padding: 40px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.featuredItem{
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    /* height: 250px; */
+}
+.featuredImg{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.featuredTitles{
+    position: absolute;
+    margin-bottom:   10px;
+    left: 20px;
+    color: black;
+}
+.propreties{
+   
+    font-size: 15px;
+}

@@ -1,0 +1,33 @@
+.Folder{
+    position: relative;
+    /* margin-top: 2rem; */
+    width: 100%;
+    height: 100%;
+}
+.ImageFolder{
+    height: 60%;
+    /* width: auto !important;
+    max-width: none!important; */
+}
+.VicentFolder{
+    height: 760px;
+}
+.ContentFolder{
+    height: 400px;
+    width: 100%;
+    background: transparent;
+    margin-top: 13rem;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+folderMai{
+    height: 300px;
+    /* margin-top: 2px; */
+}

@@ -1,0 +1,112 @@
+.Section{
+    position: relative;
+    margin-top: 2rem;
+    width: 100%;
+    height: 100%;
+}
+.backg{
+    height: 80%;
+    
+}
+.pixelImg{
+    width: 100%;
+    height: 100%;
+    /* filter: brightness(80%); */
+}
+.content{
+    height: 80%;
+    width: 100%;
+    margin-top: 8rem;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.title{
+    color: white;
+}
+h1{
+    font-size: 3rem;
+    letter-spacing: 0.2rem ;
+}
+p{
+    text-align: center;
+    padding: 0 30vw;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+.search{
+    width:80%;
+    /* margin: 150px; */
+    display: flex;
+    background-color: #d9d3d3ce;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.container{
+    width: 60%;
+    background: white;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1.5px solid #000; */
+    border-radius: 10px;
+    padding: 0  1.5rem ;
+}
+.containerm{
+    width: 30px;
+    background: white;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1.5px solid #000; */
+    border-radius: 10px;
+    padding: 0  1.5rem;
+}
+
+label{
+    font-size: 2.5rem;
+    /* color: #038045; */
+    color: #03045e;
+}
+input{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: black;
+}
+ input [type="date"]{
+    padding-left: 3rem;
+    
+    
+}
+input::placeholder{
+    color: black;
+
+}
+input:focus{
+    outline: none;
+}
+.Rm-btn{
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    border: none;
+    background-color:  #038450;
+    color: #ffffffce;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+.Rm-btn:hover{
+    background-color:#03045e;
+}
