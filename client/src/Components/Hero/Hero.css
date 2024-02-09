@@ -1,11 +1,6 @@
 .headerHero{
     background-color: #003580;
     color: white;
-    display: flex;
-    justify-content: center;
-   
-
-
 }
 .heroContainer{
     width: 100%;

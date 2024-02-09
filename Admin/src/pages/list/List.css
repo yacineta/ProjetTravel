@@ -1,0 +1,7 @@
+.Listee{
+    display: flex;
+    width: 100%;
+}
+.listContainerr{
+    flex: 6;
+}

@@ -1,0 +1,7 @@
+.Payment{
+    width: 100%;
+    display: flex;
+}
+.NewPayment{
+    flex: 6;
+}

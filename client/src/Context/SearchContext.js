@@ -23,7 +23,7 @@ const SearchReducer = (state,action) =>{
     }
 };
 
-export const SearchContextProvider = ({childern}) => {
+export const SearchContextProvider = ({children}) => {
     const [state,dispatch] = useReducer (SearchReducer, INITIAL_STATE);
 
 
@@ -34,10 +34,8 @@ export const SearchContextProvider = ({childern}) => {
              dates:state.dates, 
              options:state.options,
              dispatch,
-            }}
-          >
-            
-            {childern}
+            }}>
+            {children}
         </SearchContext.Provider>
     )
 };

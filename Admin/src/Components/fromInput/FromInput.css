@@ -1,0 +1,32 @@
+.formInputk{
+    display: flex;
+    flex-direction: column; 
+    width: 250px;
+   
+}
+.logick{
+    padding: 15px;
+    margin: 10px 0px;
+    background: white;
+    border-radius: 10px;
+    border: 1.5px solid #000;
+}
+.kaki{
+   
+    font-size: 25px;
+   
+}
+.spank{
+    font-size:12px ;
+    padding: 3px;
+    /* color: red; */
+    display: none;
+}
+.logick:invalid [focused="true"]{
+    border: 1px solid;
+    /* border: 1px solid red; */
+
+}
+.logick:invalid [focused="true"] .spank{
+    display: block;
+}

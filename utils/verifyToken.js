@@ -1,5 +1,6 @@
 import jwt from "jsonwebtoken";
 import { creatError } from "./error.js";
+
 import User from "../models/User.js";
 
 

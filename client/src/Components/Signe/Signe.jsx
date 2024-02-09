@@ -92,7 +92,7 @@ function Signe() {
         // dispatchEvent({type:"LOGINE_START"})
         try{
             const res = await axios.post("/auth/login",Credential);
-            // dispatchEvent({type:"LOGIN_SUCCESS",payload: res.data});
+            // dispatchEvent({type:"LOGIN_SUCCESS",payload: res.data.details});
             navigate("/")
 
         }catch(err){

@@ -21,7 +21,7 @@ export const updatedUser = async (req,res,next)=>{
 export const deleteUser = async (req,res,next)=>{
     
     try{
-        await Users.findByIdAndDelete(req.params.id);
+        await User.findByIdAndDelete(req.params.id);
        res.status(200).json("Users has been deleted");
 
    }catch(err){
@@ -43,7 +43,7 @@ export const getUsers = async (req,res,next)=>{
     
     try{
         const users = 
-        await Users.find();
+        await users.find();
         res.status(200).json(users);
 
     }catch(err){

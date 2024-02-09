@@ -5,7 +5,7 @@ import authRoute from "./router/Auth.js";
 import usersRoute from "./router/Users.js";
 import hotelsRoute from "./router/Hotels.js";
 import roomsRoute from "./router/rooms.js";
-// import cookieParser from "cookie_Parser";
+import cookieParser from "cookie-parser";
 import cors from"cors";
 
 const app = express()
@@ -14,7 +14,7 @@ dotenv.config()
 const connect = async () =>{
     try {
     await mongoose.connect(process.env.MONGO);
-    console.log("yassine Tech")
+    console.log("yassine Teche")
   } catch (error) {
     throw error
   }
@@ -35,7 +35,7 @@ mongoose.connection.on("connected", ()=>{
 
 //  faute //
 
-// app.use(cookieParser());
+app.use(cookieParser( ));
 app.use(cors());
 app.use(express.json());
 
@@ -62,6 +62,6 @@ app.use((err,req,res,next)=>{
 
 
 app.listen(3001, ()=>{
-    connect()
+    connect( )
     console.log("Server is running of port 3516")
 })

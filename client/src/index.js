@@ -11,11 +11,11 @@ root.render(
   <React.StrictMode>
     <AuthContextProvider>
       <SearchContextProvider>
-
+       <App />
       </SearchContextProvider>
       
    </AuthContextProvider>
-    <App />
+  
   </React.StrictMode>
 );
 

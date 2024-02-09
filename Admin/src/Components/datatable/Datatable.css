@@ -1,0 +1,87 @@
+.Datatable{ 
+   
+    width:1050px;
+    height: 500px;
+    padding: 20px;
+}
+.cellAction{
+    /* background-color: #4caf50; */
+}
+.datatableTitle{
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.Link{
+    text-decoration: none;
+    color: green ;
+    font-size:16px ;
+    font-weight: 400;
+    border: 1px solid green;
+    background-color: transparent;
+    padding:5px;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.CeellWithImg{
+    display: flex;
+    align-items: center;
+    
+}
+.ceellImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.CellWithStatus{
+    padding: 5px;
+    border-radius: 5px;
+}
+.active{
+    background-color:rgba(0, 128, 0, 0.05)  ;
+    color:#4caf50 ;
+}
+.pending{
+    background-color: rgba(255, 217, 0, 0.05);
+    color: goldenrod;
+}
+.passive{
+    background-color: rgba(219, 68, 55, 0.05);
+    color: #dd4b39;
+}
+.cellAction{
+  
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.DataGrid{
+   
+    width: 100%;
+   
+}
+.viewButton{
+    padding: 2px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #4caf50;
+    border: 1.5px dotted ;
+
+}
+.deleteButton{
+    padding: 2px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: crimson;
+    border: 1.5px dotted ;
+
+}
+
